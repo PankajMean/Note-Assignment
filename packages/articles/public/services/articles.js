@@ -12,3 +12,8 @@ angular.module('mean').factory('Articles', ['$resource',
 		});
 	}
 ]);
+
+
+
+
+

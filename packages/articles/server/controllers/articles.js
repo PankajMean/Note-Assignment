@@ -64,8 +64,9 @@ exports.update = function(req, res) {
  */
 exports.destroy = function(req, res) {
     var article = req.article;
-
+    console.log('destroy');
     article.remove(function(err) {
+        console.log('remove');
         if (err) {
             return res.send('users/signup', {
                 errors: err.errors,
