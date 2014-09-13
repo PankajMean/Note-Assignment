@@ -1,6 +1,6 @@
 'use strict';
 
-/** Designed by Pankaj Kumar Dewangan
+/**
  * Module dependencies.
  */
 var mongoose = require('mongoose'),
