@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Module dependencies. Test commit
+ * Module dependencies.
  */
 var mongoose = require('mongoose'),
     passport = require('passport'),
